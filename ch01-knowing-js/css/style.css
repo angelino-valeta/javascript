@@ -15,12 +15,21 @@ html{
 
 body{
     
-    background-color: #ccc;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7));
 }
 
 /* HEADING */
 
 h1{
-    
-    margin: 40px;
+   
+    margin: 40px ; 
+}
+
+h1:after{
+    display: block;
+    content: "";
+    background-color: #BF55EC;
+    width: 100px;
+    height: 3px;
+    margin-top: 20px;
 }
