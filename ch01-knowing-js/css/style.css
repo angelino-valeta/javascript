@@ -1,0 +1,26 @@
+/* BASIC SETUP*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    
+}
+
+html{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+body{
+    
+    background-color: #ccc;
+}
+
+/* HEADING */
+
+h1{
+    
+    margin: 40px;
+}
