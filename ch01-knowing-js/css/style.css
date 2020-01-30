@@ -20,9 +20,10 @@ body{
 
 /* HEADING */
 
-h1{
+h1,
+h2{
    
-    margin: 40px ; 
+    margin: 40px; 
 }
 
 h1:after{
