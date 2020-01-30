@@ -41,3 +41,10 @@ h1:after{
 p{
     margin: 40px;
 }
+
+/* List */
+
+li{
+    margin-left: 70px;
+    padding: 10px 0;
+}
