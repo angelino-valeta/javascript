@@ -11,8 +11,30 @@
     </head>
     <body>
         <h1>About Events in Document Object Model</h1>
-        <div id="iam-div">
+        <div id="iam-div" onclick="clicked()" onmouseenter="enter()" onmouseout="out()">
             Hi, Iam a Div
         </div>
+        
+        <script>
+            var element = window.document.getElementById('iam-div')
+            
+            function clicked(){
+                element.innerText = 'Clicked';
+                element.style.backgroundColor = '#ccc'
+                element.style.color = "#000"
+            }
+            
+            function enter(){
+                element.innerText = 'come in'
+            }
+            
+            function out(){
+                element.innerText = 'go out'
+                element.style.backgroundColor = '#000'
+                element.style.color = '#eee'
+                
+            }
+            
+        </script>
     </body>
 </html>
