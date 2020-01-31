@@ -41,3 +41,20 @@ div#iam-div{
     text-align: center;
     vertical-align: middle;
 }
+
+form{
+    margin: 40px
+}
+input[type=number]{
+    padding: 10px;
+}
+
+input[type=submit]{
+    
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-radius: 5px;
+    background-color: #ccc;
+
+}
