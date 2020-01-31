@@ -9,7 +9,7 @@
     </head>
     
     <body>
-        <h1>Introduction Document Object Model</h1>
+        <h1>Introduction, Document Object Model</h1>
         
         <p>Hello JavaScript</p>
         <div class="iamdiv">Iam a Div</div>
@@ -17,9 +17,23 @@
         <script>
             var p1 = window.document.getElementsByTagName('p')[0]
             p1.style.backgroundColor = '#ccc';
+            p1.style.color = '#000';
+            window.document.write(`<p>here say: ${p1.innerHTML}</p>`);
+            
             
             var div1 = window.document.getElementsByClassName('div.iamdiv')[0];
-            div1.
+            
+            var q = window.document.querySelector('.iamdiv');
+            q.style.backgroundColor = "black";
+            
+            
+            /* You can select elemnt of any form */
+            window.document.getElementsByTagName('name tag')
+            window.document.getElementById('id')
+            window.document.getElementsByName('name')
+            window.document.getElementsByClassName('class')
+            window.document.querySelector('element name')
+            window.document.querySelectorAll('elemt name')
             
         </script>
         
