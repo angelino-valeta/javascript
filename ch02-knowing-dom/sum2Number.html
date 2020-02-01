@@ -18,7 +18,7 @@
             </label>
             <input type="number" name="number2" id="number2" placeholder="type second number">
             <div>
-                <input type="submit" value="Sum" onclick="sum()">
+                <input type="button" value="Sum" onclick="sum()">
                 <p id="result">Result:</p>
             </div>
         </form>
@@ -35,7 +35,8 @@
                 var n2 = Number(number2.value)
                 
                 var sum = n1 + n2
-                a.innerText = "Resul: " + sum
+                
+                a.innerHTML = `Result: ${sum}`
             }
             
         </script>
