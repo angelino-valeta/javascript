@@ -11,9 +11,33 @@
     <body>
         <h1>Sum of two numbers</h1>
         
+        <form>
+            <input type="number" name="number1" id="number1" placeholder="type first number">
+            <label>
+                +
+            </label>
+            <input type="number" name="number2" id="number2" placeholder="type second number">
+            <div>
+                <input type="submit" value="Sum" onclick="sum()">
+                <p id="result">Result:</p>
+            </div>
+        </form>
         
         <script>
-        
+            
+            function sum(){
+                
+                var number1 = window.document.getElementById('number1');
+                var number2 = window.document.getElementById('number2');
+                var a = window.document.getElementById('result')    
+
+                var n1 = Number(number1.value)
+                var n2 = Number(number2.value)
+                
+                var sum = n1 + n2
+                a.innerText = "Resul: " + sum
+            }
+            
         </script>
     
     </body>
