@@ -50,7 +50,7 @@ input[type=number]{
     padding: 10px;
 }
 
-input[type=submit]{
+input[type=button]{
     
     padding: 10px 30px;
     margin-top: 10px;
