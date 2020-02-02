@@ -18,18 +18,22 @@
             </label>
             <input type="number" name="number2" id="number2" placeholder="type second number">
             <div>
-                <input type="button" value="Sum" onclick="sum()">
+                <input type="button" value="Sum" id="btn">
                 <p id="result">Result:</p>
             </div>
         </form>
         
         <script>
             
+            var btn = window.document.getElementById('btn')
+            btn.addEventListener('click', sum)
+            
             function sum(){
                 
                 var number1 = window.document.getElementById('number1');
                 var number2 = window.document.getElementById('number2');
-                var a = window.document.getElementById('result')    
+                var a = window.document.getElementById('result')
+                   
 
                 var n1 = Number(number1.value)
                 var n2 = Number(number2.value)
@@ -37,7 +41,9 @@
                 var sum = n1 + n2
                 
                 a.innerHTML = `Result: ${sum}`
+                
             }
+            
             
         </script>
     
