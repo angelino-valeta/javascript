@@ -35,3 +35,7 @@ h1:after{
     margin-top: 10px;
     background-color: #eee;
 }
+
+p{
+    margin: 20px 0 20px 40px;
+}
