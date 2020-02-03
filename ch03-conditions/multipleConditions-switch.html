@@ -32,9 +32,37 @@
                 var days = new Date();
                 var day = days.getDay();
                 
-                var day = document.getElementById('day')
+                var d = document.getElementById('day')
+                var day = Number(d.value)
+                
                 var answer = document.getElementById('answer')
                 
+                switch(day){
+                        
+                    case 0:
+                        answer.innerText = "Sunday"
+                        break
+                    case 1:
+                        answer.innerText = "Monday"
+                        break
+                    case 2:
+                        answer.innerText = "Tuesday"
+                        break
+                    case 3:
+                        answer.innerText = "Wednesday"
+                        break
+                    case 4:
+                        answer.innerText = "Thursday"
+                        break
+                    case 5:
+                        answer.innerText = "Friday"
+                        break
+                    case 6:
+                        answer.innerText = "Saturday"
+                        break
+                    default:
+                        answer.innerText = "[Error] day invalid"    
+                }
             }
             
         </script>
