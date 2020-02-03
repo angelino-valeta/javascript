@@ -32,7 +32,16 @@
                 var weight = document.getElementById('weight')
                 var answer = document.getElementById('answer')
                 
-                answer.innerText = "working"
+                var converHeight = Number(height.value)
+                var converWeight = Number(weight.value)
+                
+                var bmi = (converWeight / (converHeight * converHeight))
+                
+                if(bmi < 18.5){
+                    
+                    answer.innerText = `your BMI is ${bmi.toFixed(2)}, you are underweight.`
+                    
+                }
             }
             
         </script>
