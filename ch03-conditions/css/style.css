@@ -37,5 +37,41 @@ h1:after{
 }
 
 p{
-    margin: 20px 0 20px 40px;
+    margin: 20px 0 20px 0px;
+}
+
+
+form{
+    display: block;
+    margin: 40px;
+    
+}
+
+form label{
+    display: block;
+    margin: 10px auto;
+    
+}
+
+form input[type=text]{
+    display: inline;
+    padding: 10px; 
+    float: left;
+    margin-right: 8px;
+}
+
+div input[type=button]{
+    display: inline;
+    padding: 10px 30px;
+/* #22A7F0, #19B5FE blues */
+    background-color: darkorange;
+    color: #eee;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+div input[type=button]:hover{
+    color: #ccc;
 }
