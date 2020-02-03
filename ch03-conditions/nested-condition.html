@@ -24,6 +24,16 @@
         <p id="answer">Answer:</p>
         
         <script>
+            var btn = document.getElementById('button')
+            btn.addEventListener('click', bmi)
+            
+            function bmi(){
+                var height = document.getElementById('height')
+                var weight = document.getElementById('weight')
+                var answer = document.getElementById('answer')
+                
+                answer.innerText = "working"
+            }
             
         </script>
     </body>
