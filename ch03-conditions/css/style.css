@@ -97,6 +97,10 @@ div input[type=button]:hover{
     border-radius: 5px;
 }
 
+#day{
+    width: 210px;
+}
+
 
 #button{
     margin-top: 20px;
