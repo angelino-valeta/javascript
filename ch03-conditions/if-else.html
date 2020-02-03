@@ -13,15 +13,31 @@
         
         <form>
             <label>your are happ?</label>
-            <input type="text" name="texthapp" id accept="texthapp" placeholder="type your answer, yes or no.">
+            <input type="text" name="texthapp" id="texthapp" placeholder="type your answer, yes or no.">
             <div>
                 <input type="button" name="btn" id="btn" value="confirm">
-                <p>Answer:</p>
+                <p class="ph">Answer:</p>
             </div>
         </form>
         
         <script>
-        
+            var btn = window.document.getElementById('btn');
+            btn.addEventListener('click', happ)
+            
+            function happ(){
+                var text = window.document.getElementById('texthapp')
+                var a = document.getElementsByClassName('ph')[0]
+                var textv = String(texthapp.value)
+                
+                if(textv == "yes"){
+                    
+                    a.innerText = "Congratulation!"
+                    
+                }else{
+                    
+                    a.innerText = "just do it, what you like.!"
+                }
+            }
         </script>
         
     </body>
