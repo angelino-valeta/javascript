@@ -1,6 +1,10 @@
 #photo img{
-    margin-top: 20px;#pho
+    margin-top: 20px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+#salute{
+    color: #2c3e50;
 }
