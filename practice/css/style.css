@@ -42,3 +42,14 @@ section{
 section div{
     margin: 20px 10px;
 }
+
+
+footer{
+    text-align: center;
+    margin: 40px;
+    
+}
+footer p{
+    font-style: italic;
+
+}
