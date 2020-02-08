@@ -33,6 +33,7 @@ function verific(){
                 
                 gen = "child"
                 //child
+                img.setAttribute('src', 'img/')
                 
             }else if(age >= 11 && age < 35){
                 
