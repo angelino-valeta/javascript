@@ -3,39 +3,46 @@
 }
 
 div input[type=number]{
-    
+    border: none;
+    border-bottom: 2px solid #38ada9;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.350);
     padding: 12px 30px;
 
     
 }
 
+#finish{
+    border: none;
+}
+
 #step{
     
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #btn {
-    border-style: inset;
-    border-width: thin;
+    border: none;
     cursor: pointer;
     border-radius: 50px;
-    background-color: #079992;
-    color: #eee;
+    background-color: #fff;
+    color: #38ada9;
     font-size: 16px;
     padding: 13px 40px;
     margin-right: 100px;
-    transition: background-color 0.25s;
-    transition: color 0.25s;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
+    transition: background-color 1s ;
+    transition: color 0.5s;
+    
 }
 
 #btn:hover,
 #btn:active{
-    color: #ccc;
+    color: #fff;
     background-color: #38ada9;
 }
 
 #answer{
-    
+    color: #a4b0be;
     margin-top: 50px;
     margin-right: 140px;
     font-size: 16px;
