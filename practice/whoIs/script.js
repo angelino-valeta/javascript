@@ -21,13 +21,59 @@ function verific(){
         
         var gen = '';
         
+        var img = document.createElement('img')
+        img.setAttribute('id', 'foto')
+        
+        
         if(gender[0].checked){
+            
             gen = "man"
+            
+            if(age >= 0 && age <= 10){
+                
+                gen = "child"
+                //child
+                
+            }else if(age >= 11 && age < 35){
+                
+                gen = "young"
+                //young
+                
+            } else if(age >= 35 && age <= 49){
+                gen = "lord"
+                //lord
+                      
+            }else if (age >= 50){
+                
+                gen = "adult"
+                //adult
+            }
+                
                         
                     
         } else if(gender[1].checked){
             
             gen = "woman"
+            
+            if(age >= 0 && age <= 10){
+                
+                gen = "child"
+                //child
+                
+            }else if(age >= 11 && age < 35){
+                
+                gen = "young"
+                //young
+                
+            } else if(age >= 35 && age <= 49){
+                gen = "lord"
+                //lord
+                      
+            }else if (age >= 50){
+                
+                gen = "adult"
+                //adult
+            }
             
         }
         
