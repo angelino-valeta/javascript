@@ -1,0 +1,42 @@
+* {
+    outline: none;
+}
+
+div input[type=number]{
+    
+    padding: 12px 30px;
+
+    
+}
+
+#step{
+    
+    margin-top: 20px;
+}
+
+#btn {
+    border-style: inset;
+    border-width: thin;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #079992;
+    color: #eee;
+    font-size: 16px;
+    padding: 13px 40px;
+    margin-right: 100px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+}
+
+#btn:hover,
+#btn:active{
+    color: #ccc;
+    background-color: #38ada9;
+}
+
+#answer{
+    
+    margin-top: 50px;
+    margin-right: 140px;
+    font-size: 16px;
+}
