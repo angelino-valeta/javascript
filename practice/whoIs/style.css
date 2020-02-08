@@ -22,6 +22,8 @@ div #check{
 div #check:hover,
 div #check:active{
     background-image: linear-gradient( to left, rgba(183, 21, 64, 0.8), rgba(235, 47, 6, 0.9));
-    color: #fff;
+    
+    
+
     
 }
