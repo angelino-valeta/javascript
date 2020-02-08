@@ -4,9 +4,9 @@
 
 div #yearbirth{
     padding: 15px 30px;
-    border: 0.5px solid rgba(25, 42, 86, 0.5);
+    border: 0.5px solid rgba(183, 21, 64, 0.5);
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(25, 42, 86, 0.350);
+    box-shadow: 0 3px 10px 0 rgba(25, 42, 86, 0.350);
 }
 
 div input[type=radio]{
