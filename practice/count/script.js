@@ -9,14 +9,11 @@ function count(){
     var answer = document.getElementById('answer')
     
         
-   if(){
-        
-        for(first = 1; first <= finish; first++){
-        
-        answer.innerText = first
-        
-        
-    }
+   if(first.empty()){
+       
+       alert('error')
+       
+       
       } 
     
     
