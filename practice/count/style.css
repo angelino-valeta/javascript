@@ -24,13 +24,13 @@ div input[type=number]{
     border: none;
     cursor: pointer;
     border-radius: 50px;
-    background-color: #fff;
+    background: #fff;
     color: #38ada9;
     font-size: 16px;
     padding: 13px 40px;
     margin-right: 100px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.5);
-    transition: background-color 1s ;
+    transition: background 0.5s ;
     transition: color 0.5s;
     
 }
@@ -38,7 +38,7 @@ div input[type=number]{
 #btn:hover,
 #btn:active{
     color: #fff;
-    background-color: #38ada9;
+    background: #38ada9;
 }
 
 #answer{
