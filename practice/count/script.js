@@ -18,6 +18,11 @@ function count(){
         answer.innerText = 'cannot count, types data correctly'
     }else{
         
+         if(step <= 0){
+            window.alert('number invalid starting  with 1 ')
+            step = 1
+        }
+        
         if(first < finish){
             
             for(i = first; i <= finish; i+= step){
@@ -25,20 +30,16 @@ function count(){
                 answer.innerText += ` ${i}` 
                
             }
-        }
-        
-        if(step <= 0){
-            window.alert('number invalid starting  with 1 ')
-            step = 1
-        }
-        
-        if(first > finish){
+        } else if(first > finish){
             
             for(i = first; i >= finish; i -= step){
                 
                 answer.innerHTML += ` ${i}`
             }
         }
+        
+        answer.innerHTML += ` count completed`
+        
         
     }
     
