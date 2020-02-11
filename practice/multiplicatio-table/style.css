@@ -1,0 +1,28 @@
+* {
+    outline: none;
+}
+
+#number{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.350);
+}
+
+#btn{
+    background-color: #fff;
+    padding: 10px 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.350);
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-size: 16px
+}
+
+#btn:hover,
+#btn:active{
+    color: #fff;
+    background-color: dimgrey;
+}
