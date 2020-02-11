@@ -11,16 +11,9 @@ function count(){
     
     var counting = document.createElement('p')
     
-    if(first == 0){
-        answer.innerText = 'do not count'
-    }else{
+    if(first == 0 || finish == 0 || step == 0){
         
-        for(first = 0; first <= finish; first = first + step){
-        
-        counting.innerText = first
-        answer.appendChild(counting)
-    }
-        
+        answer.innerText = 'cannot count, types data correctly'
     }
     
        
