@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    color: #ccc;
+}
+
+#btn{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    
+    color: beige;
+}
