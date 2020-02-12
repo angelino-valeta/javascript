@@ -28,3 +28,8 @@
     background-color: dimgrey;
     border-color: dimgrey;
 }
+
+#answer{
+    display: none;
+    width: 100px
+}
