@@ -10,7 +10,7 @@
     
     <body>
         <header>
-            <h1>learn loop -do  while</h1>
+            <h1>learn loop - do  while</h1>
         </header>
         
         <article>
@@ -23,6 +23,19 @@
         </article>
         
         <script>
+            function count(){
+              
+                var btn = document.getElementById('btn')
+                var countAns = document.getElementById('count')
+                
+                let i = 1
+                do (i <= 20){
+                    
+                    countAns.innerText += ` ${i} `
+                    
+                    i ++
+                }while(i <= 20)
+            }
                   
         
         </script>
