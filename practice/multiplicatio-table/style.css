@@ -25,4 +25,5 @@
 #btn:active{
     color: #fff;
     background-color: dimgrey;
+    border-color: dimgrey;
 }
