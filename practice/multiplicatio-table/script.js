@@ -6,6 +6,7 @@ function multiTable(){
     var num = Number(document.getElementById('number').value)
     var answer = document.getElementById('answer')
     
+    answer.style.display = 'inline'
     if(num == 0){
         alert('field number is empty')
     }else{
@@ -18,6 +19,7 @@ function multiTable(){
             answer.appendChild(table)
             
         }
+        table.text = '-----------'
     }
     
     
