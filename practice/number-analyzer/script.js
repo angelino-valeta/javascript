@@ -6,7 +6,7 @@ var numbers = []
 
 
 btnAdd.addEventListener('click', numberAnalyzer)
-
+btnFinish.addEventListener('click', finish)
 
 function isNumber(n){
     if(Number(n) >= 1 && Number(n) <= 100){
@@ -58,6 +58,15 @@ function finish(){
         
         alert('add values before finish')
     }else{
+        otherAnswer.style.fontSize = '12px'
+        
+        var tot = numbers.length
+        
+        otherAnswer.innerHTML = ''
+        otherAnswer.innerHTML = `We have ${tot} numbers`
+        
+        
+        
         
     }
 }
