@@ -16,9 +16,12 @@ input[type=number]{
     background-color: rgba(0,0,0, 0.385);
     color: #fff;
     cursor: pointer;
+    transition: color 0.5s;
+    transition: background-color 0.3s ease-out;
 }
 
-#btn:hover{
+#btnAdd:hover,
+#btnFinish:hover{
     box-shadow: 0 1px 4px 0 rgba(0,0,0, 0.385);
     background-color: #fff;
     color: rgba(0,0,0, 0.350);
