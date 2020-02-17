@@ -66,8 +66,10 @@ function finish(){
         var tot = numbers.length
         var bigger = numbers[0]
         var less = numbers[0]
-        
+        var sum = 0
+        var 
         for(var i in numbers){
+            sum += numbers[i]
             if(numbers[i] > bigger){
                 bigger = numbers[i]
             }
@@ -81,6 +83,7 @@ function finish(){
         otherAnswer.innerHTML += `We have ${tot} numbers ${'<br>'}`
         otherAnswer.innerHTML += `The less number is ${less} ${'<br>'}`
         otherAnswer.innerHTML += `The bigger number is ${bigger} ${'<br>'}`
+        otherAnswer.innerHTML += `The sum of numbers id ${sum} ${'<br>'}`
         
         
         
