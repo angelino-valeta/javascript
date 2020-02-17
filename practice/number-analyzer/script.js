@@ -34,6 +34,8 @@ function numberAnalyzer(){
     
     if(isNumber(num.value) && !isList(num.value, numbers) ){
         
+        numbers.push(num.value)
+        
         var opt = document.createElement('option')
         opt.text += `you add number ${num.value}`
         answer.appendChild(opt)
@@ -45,5 +47,7 @@ function numberAnalyzer(){
         alert('Number invalid. please type a number')
        
     }
+    
+    num.value = '';
        
 }
