@@ -67,7 +67,7 @@ function finish(){
         var bigger = numbers[0]
         var less = numbers[0]
         var sum = 0
-        var 
+        var average = 0
         for(var i in numbers){
             sum += numbers[i]
             if(numbers[i] > bigger){
@@ -80,11 +80,13 @@ function finish(){
             
         }
         
+        average = sum / tot
+
         otherAnswer.innerHTML += `We have ${tot} numbers ${'<br>'}`
         otherAnswer.innerHTML += `The less number is ${less} ${'<br>'}`
         otherAnswer.innerHTML += `The bigger number is ${bigger} ${'<br>'}`
         otherAnswer.innerHTML += `The sum of numbers id ${sum} ${'<br>'}`
-        
+        otherAnswer.innerHTML += `The avarage of numbers is ${average.toFixed(2)} ${'<br>'}`
         
         
     }
