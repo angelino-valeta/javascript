@@ -51,3 +51,13 @@ function numberAnalyzer(){
     num.value = '';
        
 }
+
+function finish(){
+    
+    if(numbers.length == 0){
+        
+        alert('add values before finish')
+    }else{
+        
+    }
+}
