@@ -1,3 +1,7 @@
+* {
+    outline: none;
+}
+
 input[type=number]{
     padding: 10px 10px;
     font-size: 12px;
@@ -17,5 +21,16 @@ input[type=number]{
     box-shadow: 0 1px 4px 0 rgba(0,0,0, 0.385);
     background-color: #fff;
     color: rgba(0,0,0, 0.350);
+}
+
+.table{
+    margin: 20px;
+}
+
+#answer{
+    box-shadow: 0 1px 4px 0 rgba(0,0,0, 0.385);
+    border: none;
+    margin: auto;
+    width: 200px;
 }
 
