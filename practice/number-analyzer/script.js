@@ -61,12 +61,26 @@ function finish(){
         alert('add values before finish')
     }else{
         otherAnswer.style.fontSize = '12px'
+        otherAnswer.style.textAlign = 'center'
         
         var tot = numbers.length
+        var bigger = numbers[0]
+        var less = numbers[0]
         
-        otherAnswer.innerHTML = ''
-        otherAnswer.innerHTML = `We have ${tot} numbers`
+        for(var i in numbers){
+            if(numbers[i] > bigger){
+                bigger = numbers[i]
+            }
+            
+            if(numbers[i] < less){
+                less = numbers[i]
+            }
+            
+        }
         
+        otherAnswer.innerHTML += `We have ${tot} numbers ${'<br>'}`
+        otherAnswer.innerHTML += `The less number is ${less} ${'<br>'}`
+        otherAnswer.innerHTML += `The bigger number is ${bigger} ${'<br>'}`
         
         
         
