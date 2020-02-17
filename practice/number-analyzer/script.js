@@ -1,6 +1,10 @@
 var btnAdd = document.getElementById('btnAdd')
 var btnFinish = document.getElementById('btnFinish')
- var num = Number(document.getElementById('number').value)
+var num = document.getElementById('number')
+var otherAnswer = document.getElementById('otherAnswer')
+var numbers = []
+
+
 btnAdd.addEventListener('click', numberAnalyzer)
 
 
@@ -25,18 +29,20 @@ function isList(n, l){
 
 
 function numberAnalyzer(){
-   
+       
     var answer = document.getElementById('answer')
     
-    if(num == 0 ){
+    if(isNumber(num.value) && !isList(num.value, numbers) ){
         
-        alert('Number invalid. please type a number')
+        var opt = document.createElement('option')
+        opt.text += `you add number ${num.value}`
+        answer.appendChild(opt)
+        
         
     }else{
         
-        var opt = document.createElement('option')
-        opt.text += `you add number ${num}`
-        answer.appendChild(opt)
+        
+        alert('Number invalid. please type a number')
        
     }
        
