@@ -13,6 +13,15 @@ function isNumber(n){
 }
 
 
+function isList(n, l){
+    
+    if(l.indexOf(Number(n)) != -1){
+        return true
+    }else{
+        return false
+    }
+    
+}
 
 
 function numberAnalyzer(){
