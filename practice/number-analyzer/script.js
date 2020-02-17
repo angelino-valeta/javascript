@@ -49,8 +49,10 @@ function numberAnalyzer(){
     }
     
     num.value = '';
+    num.focus();
        
 }
+
 
 function finish(){
     
