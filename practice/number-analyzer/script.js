@@ -41,6 +41,7 @@ function numberAnalyzer(){
         var opt = document.createElement('option')
         opt.text += `you add number ${num.value}`
         answer.appendChild(opt)
+        otherAnswer.innerHTML = '';
         
         
     }else{
@@ -82,7 +83,7 @@ function finish(){
         }
         
         average = sum / tot
-
+        otherAnswer.innerHTML = '';
         otherAnswer.innerHTML += `We have ${tot} numbers ${'<br>'}`
         otherAnswer.innerHTML += `The less number is ${less} ${'<br>'}`
         otherAnswer.innerHTML += `The bigger number is ${bigger} ${'<br>'}`
