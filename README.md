@@ -18,4 +18,4 @@ interpreted, strutured and mult-paradigm.
 ### Chapter 4: Loop.
 ### Chapter 5: Arrays.
 ### Chapter 6: Function 
-
+### Practice
