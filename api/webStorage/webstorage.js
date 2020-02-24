@@ -24,4 +24,17 @@ function clickCounter(){
 	}
 }
 
+// The sessionStorage object is equaç to the locaStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specif browser tab.
+function clickCounter2(){
+	if(typeof(Storage) !== "undefined"){
+		if(sessionStorage.clickcount){
+			sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+		}else{
+			sessionStorage.clickcount = 1;
+		}
+	}else{
+		count.innerHTML = "Sorry your browser does not support web storage...";
+	}
+}
+
 
