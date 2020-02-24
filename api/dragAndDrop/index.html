@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <html>
    <head>
-
-   </head>
 	<style>
 		#div1{
 			width: 350px;
@@ -11,9 +9,19 @@
 			border: 1px solid #aaaaaa;
 		}
 	</style>
-	
-	<script>
 
+	<script>
+		function allowDrop(ev){
+			ev.preventDefault();
+		}
+		function drop(ev){
+			ev.dataTransfer.setData("text", ev.target.id);
+		}
+		function drag(ev){
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text");
+			ev.target.appedChild(document.getElementById(data));
+		}
 	</script>
    </head>
    <body>
